@@ -1,0 +1,49 @@
+/* adding background image */
+body{
+    background-image: url(quizbg_blurred.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+/* css for the background of the main container */
+.container{
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    border-radius: 7px;
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+/* question heading */
+h3{
+    padding-left: 25px;
+    padding-bottom: 3px;
+    color: white;
+    background-color: rgb(87, 220, 220);
+    border-radius: 7px 7px 0 0;
+}
+.ques{
+    padding: 0px 0 0 25px;
+}
+/* css for options */
+.options{
+    padding-left: 15px;
+}
+li{
+    border: solid black 1px;
+    padding: 10px 0px 10px 5px;
+    margin: 0px 20px 8px 3px;
+    border-radius: 5px;
+}
+li:hover{
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+}
+/* next icon */
+.next{
+    background-color: white;
+    border: 0px;
+    padding:0px 0 0 215px;
+    cursor: pointer;
+}

@@ -1,0 +1,90 @@
+/* adding background image */
+body{
+    background-image: url(quizbg_blurred.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+/* adjusting size and position of the heading */
+h2{
+    font-size: 30px; 
+    margin-left: 20px;
+}
+/* font-family and font color of the header elements */
+.headerelements1{
+    display: inline-block;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}  
+/* adjusting the position and size of header elements */
+.headerelements2{
+    margin: 20px;
+    float: right;
+    margin-right: 70px;
+    margin-top: 38px;
+}
+/* modifying the color of the links in header */
+.link1{
+    text-decoration: none;
+    color: white;
+}
+/* modifying the color of the links in header on moving cursor over them */
+
+
+/* adjusting color and position  */
+#movingtext{
+    color: white;
+    margin-left: 90px;
+    margin-top: 50px;
+    font-size: 50px;
+    display: inline-block;
+} 
+/* font family and letter-spacing of the left heading */
+h1 span{
+    font-family: 'Russo One', sans-serif;
+    letter-spacing:-20px ;
+}
+/* css for the creating the animation of the left heading */
+div:first-of-type{
+    animation: appear 2s ;
+}
+div:first-of-type{
+    animation: slide 2s ;
+}
+@keyframes slide{
+    0%{margin-left: -200px;}
+    50%{margin-right: 0px;}
+    100%{margin-right: -200px;}
+}
+/* display type, font-family, width, margin etc. of the right heading  */
+.para1{
+    display: inline;
+    float: right;
+    width: 500px;
+    margin: 90px;
+    padding: 5px;
+    border-radius: 7px;
+    font-family: 'Irish Grover', cursive;
+    margin-top: 5px;
+} 
+.ques{
+    margin-bottom: -90px;
+    font-size: 100px;
+    color: #1daf94;
+}   
+button{
+    background-color: white;
+    color: #1daf94;
+    margin-top: 115px;
+    margin-left: 20px;
+    border-style:none;
+    font-size: 25px;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+button:hover{
+    background-color: #1daf94;
+    color: white;
+    text-decoration: none;
+    border-style: hidden;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css file link -->
+    <link rel="stylesheet" href="question.css">
+    <!-- next icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- jquery file link -->
+    <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <title>Questions</title>
+</head>
+<body>
+    <!-- main cointainer -->
+    <div class="container">
+        <!-- main heading -->
+        <h3><br>Question 2</h3>
+        <div class="ques">
+            <!-- question -->
+            <p class="question">Which Indian state hosts the famous ‘Khajuraho Dance Festival’ ?</p>
+            <!-- options -->
+            <ol class="options" type="A">
+                <li class="wrong">Odisha</li>
+                <li class="wrong">West Bengal</li>
+                <li class="correct">Madhya Pradesh</li>
+                <li class="wrong">Chattisgarh</li>
+            </ol>
+        </div>
+        <!-- icon for next button -->
+        <div class="next">
+            <button class="next"><a href="q3_art.html"><i class="fa fa-arrow-circle-right"style="font-size: 40px; color: rgb(87, 220, 220)"></i></a></button>
+        </div>
+    </div>
+    <!-- jquery code for color change in options -->
+    <script>
+        $('.wrong,.correct').on('click', function() {
+            $('.wrong').css('background', '#fd5858');
+            $('.correct').css('background', '#3fe145')
+        }); 
+    </script> 
+</body>
+</html>
